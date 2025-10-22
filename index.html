@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paras, August Christopher Portfolio</title>
+    <link rel="icon" href="Images/GradPic.jpg">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="Scripts/script.js"></script>    
+    <link rel="stylesheet" href="CSS/style.css">   
+    <script src="finisher-header.es5.min (1).js" type="text/javascript"></script>
+</head>
+<body class="bg-dark text-slate-200 header finisher-header overflow-x-hidden">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-darker/80 backdrop-blur-sm z-50 shadow-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-end items-center">
+                <div class="md:hidden">
+                    <button id="menu-toggle" class="text-slate-200 hover:text-primary focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8 text-right">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-2">
+                <a href="#home" class="block py-2 nav-link active">Home</a>
+                <a href="#about" class="block py-2 nav-link">About</a>
+                <a href="#skills" class="block py-2 nav-link">Skills</a>
+                <a href="#projects" class="block py-2 nav-link">Projects</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="min-h-screen flex items-center pt-20 animation ">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 mb-12 md:mb-0">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">Hi, I'm <span class="gradient-text">August</span></h1>
+                <!-- <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-slate-300">Web Developer</h2> -->
+
+                <div class="text-changer">
+                    <div class="roles-container">
+                         <h1 class="font-bold text-2xl role">Web Developer</span>
+                         <h1 class="font-bold text-2xl role">Software Developer</span>
+                    </div>
+                    
+                </div>
+
+                <p class="text-lg mb-8 text-slate-400 max-w-lg">
+                    I build exceptional digital experiences that are fast, accessible, and visually appealing. 
+                    Let's create something amazing together.
+                </p>
+                <div class="flex space-x-4">
+                    <!-- <a href="#contact" class="px-6 py-3 rounded-full btn-primary font-medium">Hire Me</a> -->
+                    <a href="#projects" class="px-6 py-3 rounded-full border border-primary text-primary font-medium hover:bg-primary/10 transition">View Work</a>
+                </div>
+                <div class="flex mt-8 space-x-4">
+                    <a href="https://github.com/Aughoost" target="_blank" class="social-icon text-xl w-10 h-10 flex items-center justify-center rounded-full bg-slate-800 hover:bg-primary">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/acparas/" target="_blank" class="social-icon text-xl w-10 h-10 flex items-center justify-center rounded-full bg-slate-800 hover:bg-blue-600">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@LazySolutionsAP" target="_blank" class="social-icon text-xl w-10 h-10 flex items-center justify-center rounded-full bg-slate-800 hover:bg-red-600">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
+                    <div class="absolute inset-0 rounded-full bg-gradient-to-br from-primary to-secondary blur-xl opacity-20"></div>
+                    <img src="Images/GradPic.jpg" 
+                         alt="Profile" 
+                         class="relative w-full h-full object-cover rounded-full border-4 border-slate-800 floating">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-darker">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">About <span class="gradient-text">Me</span></h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto"></div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-8 md:mb-0 flex justify-center">
+                    <div class="relative w-64 h-64">
+                        <div class="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary to-secondary blur-xl opacity-20"></div>
+                        <img src="Images/GradPic.jpg" 
+                             alt="About" 
+                             class="relative w-full h-full object-cover rounded-2xl border-4 border-slate-800">
+                    </div>
+                </div>
+                
+                <div class="md:w-2/3 md:pl-12">
+                    <h3 class="text-2xl font-bold mb-6">Who am I?</h3>
+                    <p class="text-slate-400 mb-6">
+                     I’m a dedicated software developer who embraces challenges head-on and has built a strong reputation for delivering practical, efficient solutions. With experience across full-stack development and agile environments, I’m passionate about turning complex ideas into reliable, impactful products that drive innovation.
+                    </p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                        <div>
+                            <h4 class="font-semibold mb-2">Name: <span class="text-slate-300">August Christopher Paras</span></h4>
+                            <h4 class="font-semibold mb-2">Email: <span class="text-slate-300">parasaugust0@gmail.com</span></h4>
+                            <h4 class="font-semibold mb-2">Phone: <span class="text-slate-300">0223671726</span></h4>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2">Age: <span class="text-slate-300">26</span></h4>
+                            <h4 class="font-semibold mb-2">Experience: <span class="text-slate-300">3 Years</span></h4>
+                            <h4 class="font-semibold mb-2">Location: <span class="text-slate-300">Auckland, New Zealand</span></h4>
+                        </div>
+                    </div>
+                    
+                    <div class="flex space-x-4">
+                        <a href="CV/Paras, August Christopher - CV.pdf" target="_blank" download="August Christopher Paras - CV.pdf" class="px-6 py-3 rounded-full btn-primary font-medium">Download CV</a>
+                        <a href="#contact" class="px-6 py-3 rounded-full border border-primary text-primary font-medium hover:bg-primary/10 transition">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-20">
+                <h3 class="text-2xl font-bold mb-8 text-center">My <span class="gradient-text">Experience</span></h3>
+                
+                <div class="relative max-w-3xl mx-auto">
+                    <div class="absolute left-1/2 h-full w-0.5 bg-slate-700 transform -translate-x-1/2"></div>
+                    
+                    <div class="mb-8 flex justify-between items-center w-full timeline-item">
+                        <div class="order-1 w-5/12"></div>
+                        <div class="order-1 w-5/12 px-4 py-4 bg-slate-800 rounded-lg shadow-lg">
+                            <h4 class="text-lg font-bold mb-2">Shopify Web Developer and Administrator</h4>
+                            <p class="text-sm text-slate-400 mb-2">TSB Living Ltd. • 2023 - 2025</p>
+                            <p class="text-slate-300">
+                                Designed, developed, and maintained e-commerce stores using Shopify and CodeIgniter. Built custom themes and plugins, optimized performance, 
+                                resolved technical issues, and provided responsive customer support.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-8 flex justify-between items-center w-full timeline-item">
+                        <div class="order-1 w-5/12 px-4 py-4 bg-slate-800 rounded-lg shadow-lg">
+                            <h4 class="text-lg font-bold mb-2">Software Developer</h4>
+                            <p class="text-sm text-slate-400 mb-2">MRE Computer Philippines • 2021 - 2022</p>
+                            <p class="text-slate-300">
+                                Developed and maintained software and websites for Swiss clients, 
+                                supported users remotely, resolved technical issues,
+                                and improved system efficiency through automation and performance optimization.
+                            </p>
+                        </div>
+                        <div class="order-1 w-5/12"></div>
+                    </div>
+                    
+                    <div class="mb-8 flex justify-between items-center w-full timeline-item">
+                        <div class="order-1 w-5/12"></div>
+                        <div class="order-1 w-5/12 px-4 py-4 bg-slate-800 rounded-lg shadow-lg">
+                            <h4 class="text-lg font-bold mb-2">Data Processor</h4>
+                            <p class="text-sm text-slate-400 mb-2">Dynata • 2020 - 2021</p>
+                            <p class="text-slate-300">
+                              Processed and validated data for complex projects, collaborated on survey design, and ensured accurate, timely results.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-dark">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">My <span class="gradient-text">Skills</span></h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Technical Skills</h3>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">HTML/CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">JavaScript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">VB.net & C#</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">PHP</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">ASP.net MVC</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Professional Skills</h3>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">Communication</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">Teamwork</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">Problem Solving</span>
+                                <span>98%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 98%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">Creativity</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">Critical Thinking</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tools & Technologies -->
+            <div class="mt-16">
+                <h3 class="text-2xl font-bold mb-8 text-center">Tools & <span class="gradient-text">Technologies</span></h3>
+                
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+                    <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
+                        <i class="fab fa-html5 text-4xl text-orange-500 mb-2"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
+                        <i class="fab fa-css3-alt text-4xl text-blue-500 mb-2"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
+                        <i class="fab fa-js text-4xl text-yellow-400 mb-2"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
+                        <i class="fab fa-php text-4xl text-blue-400 mb-2"></i>
+                        <!-- <img src="Images/MVC.png"> -->
+                        <span>PHP</span>
+                    </div>
+                         <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
+                        <i class="fa-solid fa-fire text-4xl text-red-400 mb-2"></i>
+                        <!-- <img src="Images/MVC.png"> -->
+                        <span>CodeIgniter 4</span>
+                    </div>
+                    <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
+                        <i class="fa-solid fa-infinity text-4xl text-blue-600 mb-2"></i>
+                        <span>ASP.net MVC</span>
+                    </div>
+                    <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
+                        <i class="fa-solid fa-code text-4xl text-violet-600 mb-2"></i>
+                        <span>VB.net</span>
+                    </div>
+                    <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
+                        <i class="fa-solid fa-window-maximize text-4xl text-blue-600 mb-2"></i>
+                        <span>C#</span>
+                    </div>
+                      <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
+                        <i class="fab fa-magento text-4xl text-orange-500 mb-2"></i>
+                        <span>Magento 2</span>
+                    </div>
+                    <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
+                        <i class="fab fa-shopify text-4xl text-green-600 mb-2"></i>
+                        <!-- <i class="fab fa-shopify"></i> -->
+                        <span>Shopify</span>
+                    </div>
+                       <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
+                        <i class="fa-brands fa-bootstrap text-4xl text-violet-600 mb-2"></i>
+                        <!-- <i class="fab fa-shopify"></i> -->
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
+                        <i class="fab fa-node-js text-4xl text-green-500 mb-2"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
+                        <i class="fas fa-database text-4xl text-blue-300 mb-2"></i>
+                        <span>SQL & MySQL</span>
+                    </div>
+                    <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
+                        <i class="fas fa-terminal text-4xl text-gray-300 mb-2"></i>
+                        <span>VS Code</span>
+                    </div>
+                    <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
+                        <i class="fa-brands fa-mailchimp text-4xl text-blue-600 mb-2"></i>
+                        <span>MailChimp</span>
+                    </div>
+                     <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
+                        <i class="fa-solid fa-envelope text-4xl text-black mb-2"></i>
+                        <span>Klaviyo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-darker">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">My <span class="gradient-text">Projects</span></h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card rounded-xl overflow-hidden card-hover">
+                    <div class="h-48 overflow-hidden">
+                        <img src="Images/garagemessmer.png" 
+                             alt="Project 1" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Garage Messmer</h3>
+                        <p class="text-slate-400 mb-4">
+                            A Magento 2–based e-commerce website for a Swiss classic car specialist, featuring online parts sales, workshop services, and seamless customer interaction.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">PHP</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">Magento</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">HTML</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">CSS</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card rounded-xl overflow-hidden card-hover">
+                    <div class="h-48 overflow-hidden">
+                        <img src="Images/MRE.png" 
+                             alt="Project 2" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">MRE Software AG</h3>
+                        <p class="text-slate-400 mb-4">
+                           Built MRE.ch using ASP.NET MVC, integrating custom CMS features, multilingual support, 
+                           and responsive design for a Swiss–Philippine software consulting firm.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">.Net MVC</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">HTML</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">CSS</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">Javascript</span>
+                                <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">Jquery</span>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="project-card rounded-xl overflow-hidden card-hover">
+                    <div class="h-48 overflow-hidden">
+                        <img src="Images/TSBLiving.png" 
+                             alt="Project 6" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">TSBLiving</h3>
+                        <p class="text-slate-400 mb-4">
+                          Developed and maintain TSBLiving.co.nz on Shopify, implementing custom Liquid themes, integrating payment gateways, optimizing user experience, and ensuring seamless product management for a diverse range of home and lifestyle products.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">Shopify</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">HTML</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">CSS</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">Javascript</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card rounded-xl overflow-hidden card-hover">
+                    <div class="h-48 overflow-hidden">
+                        <img src="Images/AlumniTracer.png" 
+                             alt="Project 3" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Alumni Tracer</h3>
+                        <p class="text-slate-400 mb-4">
+                            Developed Alumni Tracer using PHP, MySQL, jQuery formBuilder, and Chart.js, with HTML, CSS, and JavaScript to create an interactive alumni tracking and data visualization system.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">PHP</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">Chart.js</span>
+                             <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">HTML</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">CSS</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">jQuery formBuilder</span>
+                        </div>
+                        <div class="flex space-x-3">
+                            <a href="https://www.youtube.com/watch?v=E2pr80eZrCI" target="_blank" class="text-primary hover:text-secondary">
+                                <i class="fa fa-external-link-alt"></i> Video Demo
+                            </a>
+                            <a href="https://github.com/Aughoost/AlumniTracer" class="text-primary hover:text-secondary" target="_blank">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card rounded-xl overflow-hidden card-hover">
+                    <div class="h-48 overflow-hidden">
+                        <img src="Images/SurveyBuilder.png" 
+                             alt="Project 4" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Survey Builder</h3>
+                        <p class="text-slate-400 mb-4">
+                           Created a Survey Builder using PHP, MySQL, jQuery Form Builder, and Chart.js, featuring dynamic form creation and real-time data visualization with HTML, CSS, and JavaScript.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                               <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">PHP</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">Chart.js</span>
+                             <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">HTML</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">CSS</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">jQuery formBuilder</span>
+                        </div>
+                        <div class="flex space-x-3">
+                            <a href="https://www.youtube.com/watch?v=E2pr80eZrCI" target="_blank" class="text-primary hover:text-secondary">
+                                <i class="fa fa-external-link-alt"></i> Video Demo
+                            </a>
+                            <a href="https://github.com/Aughoost/Survey-Builder" target="_blank" class="text-primary hover:text-secondary">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="project-card rounded-xl overflow-hidden card-hover">
+                    <div class="h-48 overflow-hidden">
+                        <img src="Images/ShippingCalculator.png" 
+                             alt="Project 5" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Shipping Calculator</h3>
+                        <p class="text-slate-400 mb-4">
+                            Developed a custom Shipping Calculator for TSB Living using CodeIgniter 4, PHP, and JavaScript, integrated with Shopify to deliver accurate, real-time shipping cost calculations.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">HTML5</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">CSS</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">JavaScript</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">Rest API</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">CodeIgniter 4</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                
+            </div>
+            
+            <!-- <div class="text-center mt-12">
+                <a href="#" class="px-8 py-3 rounded-full btn-primary font-medium inline-flex items-center">
+                    View All Projects <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div> -->
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="md:py-20 lg:py-17 sm:py-20  bg-dark">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Get In <span class="gradient-text">Touch</span></h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-1 gap-12">
+            
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 text-center">Contact Information</h3>
+                    <p class="text-slate-400 mb-8 text-center">
+                    I'm always open to new opportunities and collaborations.
+                    Feel free to reach out if you have any questions or would like to discuss a project or idea.    
+                    </p>
+
+                <!-- <div class="inline-flex justify-center">    </div> -->
+                    <div class="space-y-6 ">
+                      <div class="grid lg:place-items-center grid-cols-1 lg:grid-cols-3 gap-5">
+                        <div class="flex items-center">
+                            <div class="bg-slate-800 p-3 rounded-full mr-4">
+                                <i class="fas fa-map-marker-alt text-primary text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Location</h4>
+                                <p class="text-slate-400">Auckland, New Zealand</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                        <!-- <div class="flex items-start"> -->
+                            <div class="bg-slate-800 p-3 rounded-full mr-4">
+                                <i class="fas fa-envelope text-primary text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Email</h4>
+                                <p class="text-slate-400">parasaugust0@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                        <!-- <div class="flex items-start"> -->
+                            <div class="bg-slate-800 p-3 rounded-full mr-4">
+                                <i class="fas fa-phone-alt text-primary text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Phone</h4>
+                                <p class="text-slate-400">+64223671726</p>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+                    
+                    <div class="mt-8 ">
+                        <h4 class="font-bold mb-4 text-center">Follow Me</h4>
+                        <div class="flex space-x-4 flex justify-center">
+                            <a href="https://github.com/Aughoost" target="_blank" class="social-icon w-12 h-12 flex items-center justify-center rounded-full bg-slate-800 hover:bg-primary">
+                                <i class="fab fa-github text-xl"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/acparas/" target="_blank" class="social-icon w-12 h-12 flex items-center justify-center rounded-full bg-slate-800 hover:bg-blue-600">
+                                <i class="fab fa-linkedin-in text-xl"></i>
+                            </a>
+                             <a href="https://www.youtube.com/@LazySolutionsAP" target="_blank" class="social-icon w-12 h-12 flex items-center justify-center rounded-full bg-slate-800 hover:bg-red-600">
+                                <i class="fa-brands fa-youtube text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+<script type="text/javascript">
+new FinisherHeader({
+  "count": 90,
+  "size": {
+    "min": 1,
+    "max": 29,
+    "pulse": 0.1
+  },
+  "speed": {
+    "x": {
+      "min": 0,
+      "max": 0.4
+    },
+    "y": {
+      "min": 0,
+      "max": 0.2
+    }
+  },
+  "colors": {
+    "background": "#0d0e0e",
+    "particles": [
+      "#ffffff",
+      "#87ddfe",
+      "#acaaff",
+      "#1bffc2",
+      "#f88aff"
+    ]
+  },
+  "blending": "screen",
+  "opacity": {
+    "center": 0,
+    "edge": 0.4
+  },
+  "skew": 0,
+  "shapes": [
+    "c",
+    "s",
+    "t"
+  ]
+});
+</script>
+</body>
+</html>
